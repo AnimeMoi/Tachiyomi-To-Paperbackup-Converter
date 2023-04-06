@@ -6,6 +6,8 @@ import { getConversionSourcesList } from "../ConversionSources/ConversionSources
 
 import { TachiyomiBackupManager } from "../BackupManagers/TachiyomiBackupManager";
 
+import { conversionResult } from "./ConversionResult";
+
 import { Dictionary } from "lodash";
 import Long from "long";
 
@@ -59,7 +61,7 @@ export class PaperToTachiBackupConverter {
 
         // We keep a list of the manga that could not be converted
         // We could add a more explicit reason (ex: unsupported source)
-        let unconvertedMangas: {mangaTitle: string, mangaId: string, sourceId: string}[] = []
+        let unconvertedMangas: { mangaTitle: string, mangaId: string, sourceId: string }[] = []
 
         /* NOTE: currently unused, see comment in `parseBackupManga` */
         // We will first create the list of all categories in the original backup
@@ -99,36 +101,36 @@ export class PaperToTachiBackupConverter {
                     if (sourceConverter === undefined) {
                         unconvertedMangas.push({
                             mangaTitle: (libraryManga.manga.titles.length > 0) ? libraryManga.manga.titles[0] : 'undefined',
-							mangaId: sourceManga.mangaId,
+                            mangaId: sourceManga.mangaId,
                             sourceId: sourceManga.sourceId
                         })
                         console.log("Unsupported source " + sourceManga.sourceId)
-        
+
                     } else {
                         // We convert the title
-        
+
                         usedSources.add(sourceManga.sourceId)
 
                         // We add the manga to the converted backup
                         const backupManga = this.parseBackupManga(libraryManga, sourceManga, categories, sourceConverter)
                         tachiyomiBackupManager.appendBackupManga(backupManga)
-                        
+
                     }
                 }
             }
         }
-        
+
         // Then we add the sources
         for (const paperbackSourceId of usedSources) {
 
             const converter = conversionSourcesDict[paperbackSourceId]
 
-			// sourceId should have a type: `Number | Long.Long`. 
-			// Or Tachiyomi are using source ids (ex: 2499283573021220255 for md) that are bigger that the maximal Number, they are thus changed during the encoding (ex: 2499283573021220255 becomes 2499283573021220352)
-			// To prevent this issue, we won't use a Number but a [Long](https://www.npmjs.com/package/long) element.
+            // sourceId should have a type: `Number | Long.Long`. 
+            // Or Tachiyomi are using source ids (ex: 2499283573021220255 for md) that are bigger that the maximal Number, they are thus changed during the encoding (ex: 2499283573021220255 becomes 2499283573021220352)
+            // To prevent this issue, we won't use a Number but a [Long](https://www.npmjs.com/package/long) element.
 
-			// NOTE, passing directly a string to the encoder works in node but not in the browserified version.
-			const sourceId = Long.fromString(converter.getMainTachiyomiSourceId())
+            // NOTE, passing directly a string to the encoder works in node but not in the browserified version.
+            const sourceId = Long.fromString(converter.getMainTachiyomiSourceId())
 
             const source: TachiyomiObjectModel.IBackupSource = {
                 name: converter.tachiyomiSourceName,
@@ -140,10 +142,10 @@ export class PaperToTachiBackupConverter {
         }
 
         return {
-			backupObject: tachiyomiBackupManager.exportBackup(),
-			unconverted: unconvertedMangas,
-			type: 'Tachiyomi'
-		}
+            backupObject: tachiyomiBackupManager.exportBackup(),
+            unconverted: unconvertedMangas,
+            type: 'Tachiyomi'
+        }
     }
 
     /**
@@ -192,7 +194,7 @@ export class PaperToTachiBackupConverter {
         // https://github.com/Paperback-iOS/extensions-common/blob/master/src/models/Manga/index.ts
 
         // The status can be a long so we need to convert it to a number
-        switch(paperBackStatus) {
+        switch (paperBackStatus) {
             case PaperbackBackup.MangaStatus.UNKNOWN: {
                 return 0
             }
@@ -224,7 +226,7 @@ export class PaperToTachiBackupConverter {
      * @returns The generated {@link TachiyomiObjectModel.IBackupManga} object
      */
     private parseBackupManga(libraryManga: PaperbackBackup.LibraryManga, sourceManga: PaperbackBackup.SourceManga, categories: Dictionary<number>, converter: AbstractConversionSource): TachiyomiObjectModel.IBackupManga {
-        
+
         // NOTE:
         // We won't parse categories. 
         // Using a number[] for `categories` raise an error "Expected wire type 0, found 2" when the backup is restored in the app
@@ -239,8 +241,8 @@ export class PaperToTachiBackupConverter {
         //     writer.ldelim();
         // }
         // ```
-        
-        
+
+
         // Parse genres
         let genres: string[] = []
         for (const tagSection of libraryManga.manga.tags) {
@@ -260,21 +262,21 @@ export class PaperToTachiBackupConverter {
             if (chapterMarker.chapter?.mangaId === sourceManga.mangaId) {
 
                 const chapter: TachiyomiObjectModel.IBackupChapter = {
-                    url:            converter.parsePaperbackChapterId(chapterMarker.chapter.id, sourceManga),
-                    name:           chapterMarker.chapter.name,
-                    scanlator:      chapterMarker.chapter.group,
-                    read:           chapterMarker.completed,        // Is that a completed or a started boolean?
-                    bookmark:       false,                          // The bookmark feature is not available in Paperback
-                    lastPageRead:   chapterMarker.lastPage,
-                    dateFetch:      this.convertPaperbackDate(chapterMarker.time),              // Is that the correct field?
-                    dateUplaod:     this.convertPaperbackDate(chapterMarker.chapter?.time),     // Is that the correct field?
-                    chapterNumber:  chapterMarker.chapter.chapNum,
-                    sourceOrder:    chapterMarker.chapter.sortingIndex
+                    url: converter.parsePaperbackChapterId(chapterMarker.chapter.id, sourceManga),
+                    name: chapterMarker.chapter.name,
+                    scanlator: chapterMarker.chapter.group,
+                    read: chapterMarker.completed,        // Is that a completed or a started boolean?
+                    bookmark: false,                          // The bookmark feature is not available in Paperback
+                    lastPageRead: chapterMarker.lastPage,
+                    dateFetch: this.convertPaperbackDate(chapterMarker.time),              // Is that the correct field?
+                    dateUplaod: this.convertPaperbackDate(chapterMarker.chapter?.time),     // Is that the correct field?
+                    chapterNumber: chapterMarker.chapter.chapNum,
+                    sourceOrder: chapterMarker.chapter.sortingIndex
                 }
 
                 const historyElement: TachiyomiObjectModel.IBackupHistory = {
-                    url:        converter.parsePaperbackChapterId(chapterMarker.chapter.id, sourceManga),
-                    lastRead:   this.convertPaperbackDate(chapterMarker.time)
+                    url: converter.parsePaperbackChapterId(chapterMarker.chapter.id, sourceManga),
+                    lastRead: this.convertPaperbackDate(chapterMarker.time)
                 }
 
                 chapters.push(chapter)
