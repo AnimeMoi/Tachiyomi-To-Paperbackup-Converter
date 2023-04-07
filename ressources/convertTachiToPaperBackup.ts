@@ -36,7 +36,7 @@ convertionManager.conversion()
         //     if (err) throw err;
         //     console.log('Backup saved!');
         // })
-        writeFile(outputPath, JSON.stringify(paperbackBackup), (err) => {
+        writeFile(outputPath, JSON.stringify(paperbackBackup.backupObject), (err) => {
             if (err) throw err;
             console.log('Backup saved!');
         })

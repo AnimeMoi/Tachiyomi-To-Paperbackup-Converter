@@ -16,14 +16,14 @@ export class NettruyenConversionSource extends AbstractConversionSource {
     /*
         mangaID:
             Tachiyomi: "/truyen-tranh/mendokusagari-danshi-koukousei-ga-asa-okitara-onnanoko-ni-natteita-hanashi-197780"
-            Paperback: "/truyen-tranh/mendokusagari-danshi-koukousei-ga-asa-okitara-onnanoko-ni-natteita-hanashi-197780"
+            Paperback: "mendokusagari-danshi-koukousei-ga-asa-okitara-onnanoko-ni-natteita-hanashi-197780"
         chapterId
             Tachiyomi: "/truyen-tranh/dinh-cap-khi-van-lang-le-tu-luyen-ngan-nam/chap-56/937630"
             Paperback: "/truyen-tranh/dinh-cap-khi-van-lang-le-tu-luyen-ngan-nam/chap-56/937630"
     */
 
     parseTachiyomiMangaId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
-        return tachiyomiId
+        return tachiyomiId.split('/')[1].replace('/', '')
     }
     parseTachiyomiChapterId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
         return tachiyomiId

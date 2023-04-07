@@ -1,0 +1,349 @@
+[INFO] [2023-04-06T18:43:14.890Z] [AppDelegate:requestNotificationPermission():149] Notification permission granted
+[INFO] [2023-04-06T18:43:15.308Z] [SourceManager:reloadSource(_:):128] Loading Nettruyen version: 1.0.6
+[INFO] [2023-04-06T18:43:15.310Z] [SourceManager:reloadSource(_:):128] Loading HentaiVN version: 1.1.5
+[INFO] [2023-04-06T18:43:15.704Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:43:15.707Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:43:15.721Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:43:15.907Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T18:43:15.914Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T18:43:15.919Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T18:43:15.922Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T18:43:15.924Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T18:43:15.938Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T18:43:15.939Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T18:43:15.941Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T18:43:16.118Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T18:43:16.145Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T18:43:24.964Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:43:24.979Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:44:54.753Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:44:54.767Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:44:58.487Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:44:58.490Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:45:03.234Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:45:03.249Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:45:04.408Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:45:04.989Z] [DownloadManager:processQueue():278] No downloads queued
+[INFO] [2023-04-06T18:45:06.055Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:45:07.742Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:45:23.002Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:45:23.007Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:45:23.088Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:45:23.172Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:47:39.051Z] [SceneDelegate:scene(_:openURLContexts:):86] OPEN URL: [<UIOpenURLContext: 0x282f1d7a0; URL: file:///private/var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/Inbox/Fri%20Apr%2007%202023-PaperbackConversion-1.json; options: <UISceneOpenURLOptions: 0x283d7d500; sourceApp: (null); annotation: (null); openInPlace: NO; _eventAttribution: (null)>>]
+[INFO] [2023-04-06T18:47:39.113Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:47:39.500Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:47:39.516Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[ERROR] [2023-04-06T18:47:41.595Z] [BackupManager:restoreLibrary(fromBackupURL:callback:):190] The data couldn’t be read because it is missing. Swift.DecodingError.keyNotFound(CodingKeys(stringValue: "version", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: "No value associated with key CodingKeys(stringValue: \"version\", intValue: nil) (\"version\").", underlyingError: nil))
+[INFO] [2023-04-06T18:47:46.311Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:47:48.022Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:48:26.406Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:48:26.411Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:48:26.483Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:48:26.582Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:54:55.692Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:54:55.971Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:54:55.990Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T18:55:04.844Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:55:04.849Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:55:04.919Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:55:05.006Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:55:19.630Z] [SceneDelegate:scene(_:openURLContexts:):86] OPEN URL: [<UIOpenURLContext: 0x282fff3c0; URL: file:///private/var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/Inbox/Fri%20Apr%2007%202023-PaperbackConversion-2.json; options: <UISceneOpenURLOptions: 0x283252600; sourceApp: (null); annotation: (null); openInPlace: NO; _eventAttribution: (null)>>]
+[INFO] [2023-04-06T18:55:20.075Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T18:55:20.088Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[ERROR] [2023-04-06T18:55:23.325Z] [BackupManager:restoreLibrary(fromBackupURL:callback:):190] The data couldn’t be read because it is missing. Swift.DecodingError.keyNotFound(CodingKeys(stringValue: "version", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: "No value associated with key CodingKeys(stringValue: \"version\", intValue: nil) (\"version\").", underlyingError: nil))
+[INFO] [2023-04-06T18:55:30.548Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T18:55:30.552Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T18:55:30.650Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T18:55:30.741Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T19:03:01.765Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T19:03:01.783Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedManga - Background
+[INFO] [2023-04-06T19:03:01.791Z] [FetchUpdatesOperation:main():23] Starting to fetch updates
+[INFO] [2023-04-06T19:03:01.815Z] [FetchUpdatesOperation:main():45] [Nettruyen] 2 manga in library
+[INFO] [2023-04-06T19:03:01.820Z] [AppDelegate:scheduleChapterFetch():117] Scheduled chapter fetch
+[INFO] [2023-04-06T19:10:59.671Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChapters - Background
+[INFO] [2023-04-06T19:10:59.697Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChaptersBySource - Nettruyen
+[INFO] [2023-04-06T19:10:59.705Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChaptersBySource - HentaiVN
+[INFO] [2023-04-06T20:45:16.769Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T20:45:16.783Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:45:24.419Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:45:24.525Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:24.526Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:31.068Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - http://192.168.1.5:8080/versioning.json
+[INFO] [2023-04-06T20:45:31.070Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:32.502Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:32.504Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:34.677Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:34.679Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:35.849Z] [AsyncOperation:start():51] [AsyncOperation] NetTruyen
+[INFO] [2023-04-06T20:45:35.877Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:35.879Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:36.387Z] [DownloadOperation:downloadTask(didFinishDownloadingTo:withReponse:andError:):116] Saved page to file:///var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/sources/source.Nettruyen.js
+[INFO] [2023-04-06T20:45:36.439Z] [SourceManager:reloadSource(_:):128] Loading Nettruyen version: 1.0.6
+[INFO] [2023-04-06T20:45:36.494Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:36.496Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:36.571Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T20:45:36.573Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:36.682Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T20:45:36.684Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:37.084Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T20:45:37.085Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T20:45:37.086Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:37.087Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:37.704Z] [AsyncOperation:start():51] [AsyncOperation] HentaiVN
+[INFO] [2023-04-06T20:45:37.719Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:37.721Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:38.128Z] [DownloadOperation:downloadTask(didFinishDownloadingTo:withReponse:andError:):116] Saved page to file:///var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/sources/source.HentaiVN.js
+[INFO] [2023-04-06T20:45:38.170Z] [SourceManager:reloadSource(_:):128] Loading HentaiVN version: 1.1.5
+[INFO] [2023-04-06T20:45:38.199Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T20:45:38.203Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:38.281Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T20:45:38.282Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:38.284Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T20:45:38.285Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:38.794Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T20:45:38.796Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:38.797Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T20:45:38.798Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:45:40.235Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:45:54.360Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:45:54.365Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[ERROR] [2023-04-06T20:46:01.780Z] [SourceListViewModel:refreshSources():47] AsyncOperationTimedOutError [PaperbackError(400)] AsyncOperationTimedOutError: AsyncOperation failed after 0 retries
+[INFO] [2023-04-06T20:46:43.866Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:46:43.875Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:46:46.157Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:46:46.166Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:46:46.243Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:46:46.247Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:46:48.670Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:46:48.671Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:47:49.552Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T20:47:49.556Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T20:47:49.677Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:47:49.796Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:48:12.624Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:48:13.155Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T20:48:13.166Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:48:14.028Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:48:14.037Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:48:14.133Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:48:14.135Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:48:15.817Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:48:15.826Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-06T20:48:18.021Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:48:18.803Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T20:48:18.816Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T20:48:28.073Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:48:28.078Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:48:35.537Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:48:35.539Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:48:37.827Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T20:48:37.832Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:48:49.325Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/33072-doc-truyen-housewife-in-heat.html
+[INFO] [2023-04-06T20:48:49.327Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T20:48:49.860Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-showchapter.php
+[INFO] [2023-04-06T20:48:49.861Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:58.827Z] [AppDelegate:requestNotificationPermission():149] Notification permission granted
+[INFO] [2023-04-06T21:18:59.237Z] [SourceManager:reloadSource(_:):128] Loading Nettruyen version: 1.0.6
+[INFO] [2023-04-06T21:18:59.239Z] [SourceManager:reloadSource(_:):128] Loading HentaiVN version: 1.1.5
+[INFO] [2023-04-06T21:18:59.676Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T21:18:59.678Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T21:18:59.692Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T21:18:59.778Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-06T21:18:59.779Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:59.782Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T21:18:59.786Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:59.788Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:59.789Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T21:18:59.792Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:59.795Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:18:59.990Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-06T21:18:59.995Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-06T21:19:14.615Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-06T21:19:14.620Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:19:20.876Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/33415-doc-truyen-kinh-thua-hoi-dong-xet-xu.html
+[INFO] [2023-04-06T21:19:20.877Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:19:21.377Z] [DownloadManager:processQueue():278] No downloads queued
+[INFO] [2023-04-06T21:19:21.427Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-showchapter.php
+[INFO] [2023-04-06T21:19:21.429Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:19:24.516Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/ajax_load_server.php
+[INFO] [2023-04-06T21:19:24.518Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-06T21:19:24.820Z] [ChapterRenderer:preloadPages(chapter:startFrom:):176] Preloading pages for chapter HentaiVN/61787
+[INFO] [2023-04-06T21:21:02.341Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T21:21:02.355Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-06T21:25:31.752Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T21:25:32.296Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-06T21:25:32.316Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-06T21:25:33.607Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-06T21:25:33.613Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T00:53:04.235Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T00:53:04.251Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedManga - Background
+[INFO] [2023-04-07T00:53:04.254Z] [FetchUpdatesOperation:main():23] Starting to fetch updates
+[INFO] [2023-04-07T00:53:04.300Z] [FetchUpdatesOperation:main():45] [Nettruyen] 2 manga in library
+[INFO] [2023-04-07T00:53:04.306Z] [AppDelegate:scheduleChapterFetch():117] Scheduled chapter fetch
+[INFO] [2023-04-07T01:01:59.137Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChapters - Background
+[INFO] [2023-04-07T01:01:59.148Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChaptersBySource - HentaiVN
+[INFO] [2023-04-07T01:01:59.153Z] [AsyncOperation:start():51] [AsyncOperation] FetchUpdatedChaptersBySource - Nettruyen
+[INFO] [2023-04-07T03:40:21.985Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T05:10:59.170Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:04:30.720Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:04:30.724Z] [SceneDelegate:scene(_:openURLContexts:):86] OPEN URL: [<UIOpenURLContext: 0x283333280; URL: file:///private/var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/tmp/dev.faizandurrani.moe.paperback.app-Inbox/ExpToPaper-tachiyomi_2023-04-07_00-21.json; options: <UISceneOpenURLOptions: 0x2821b72c0; sourceApp: (null); annotation: (null); openInPlace: NO; _eventAttribution: (null)>>]
+[INFO] [2023-04-07T06:04:31.107Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:04:31.123Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[ERROR] [2023-04-07T06:04:34.082Z] [BackupManager:restoreLibrary(fromBackupURL:callback:):190] The data couldn’t be read because it is missing. Swift.DecodingError.keyNotFound(CodingKeys(stringValue: "version", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: "No value associated with key CodingKeys(stringValue: \"version\", intValue: nil) (\"version\").", underlyingError: nil))
+[INFO] [2023-04-07T06:04:51.367Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:04:53.200Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:04:55.015Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:04:57.202Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:05:05.100Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:05:05.116Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:05:06.476Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:05:06.482Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:05:06.549Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:05:06.621Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:05:42.483Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:05:42.495Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:06:49.484Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:06:49.488Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:06:49.583Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:06:49.676Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:07:18.676Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:07:19.232Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:07:19.244Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:07:24.352Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:07:24.363Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:07:24.365Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:07:24.430Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:07:24.521Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:07:25.763Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:07:25.774Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:08:50.753Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:08:50.757Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:08:50.847Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:08:50.939Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:11:05.574Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:11:06.152Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:11:06.163Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:11:07.342Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:11:07.352Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:11:11.453Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:11:13.234Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:11:13.238Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:11:13.307Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:11:13.401Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:11:42.567Z] [SceneDelegate:scene(_:openURLContexts:):86] OPEN URL: [<UIOpenURLContext: 0x2833488e0; URL: file:///private/var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/tmp/dev.faizandurrani.moe.paperback.app-Inbox/ExpToPaper-tachiyomi_2023-04-07_00-21.json; options: <UISceneOpenURLOptions: 0x282f3df80; sourceApp: (null); annotation: (null); openInPlace: NO; _eventAttribution: (null)>>]
+[INFO] [2023-04-07T06:11:42.981Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:11:42.998Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[ERROR] [2023-04-07T06:11:44.158Z] [BackupManager:restoreLibrary(fromBackupURL:callback:):190] The data couldn’t be read because it is missing. Swift.DecodingError.keyNotFound(CodingKeys(stringValue: "version", intValue: nil), Swift.DecodingError.Context(codingPath: [], debugDescription: "No value associated with key CodingKeys(stringValue: \"version\", intValue: nil) (\"version\").", underlyingError: nil))
+[INFO] [2023-04-07T06:12:43.961Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:12:43.965Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:12:44.048Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:12:44.138Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:15:08.840Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:17:39.473Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:17:39.486Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:17:41.699Z] [SceneDelegate:sceneDidEnterBackground(_:):69] Scene did enter background
+[INFO] [2023-04-07T06:17:41.704Z] [AppDelegate:scheduleUpdateFetch():132] Scheduled update fetch
+[INFO] [2023-04-07T06:17:41.786Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:17:41.883Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:18:00.018Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:18:00.025Z] [SceneDelegate:scene(_:openURLContexts:):86] OPEN URL: [<UIOpenURLContext: 0x283388e40; URL: file:///private/var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/tmp/dev.faizandurrani.moe.paperback.app-Inbox/ExpToPaper-tachiyomi_2023-04-07_00-21.json; options: <UISceneOpenURLOptions: 0x28211f800; sourceApp: (null); annotation: (null); openInPlace: NO; _eventAttribution: (null)>>]
+[INFO] [2023-04-07T06:18:00.442Z] [SceneDelegate:sceneDidBecomeActive(_:):43] Scene did become active
+[INFO] [2023-04-07T06:18:00.459Z] [BetaAuthenticator:refreshAuthentication():108] Not authenticated
+[INFO] [2023-04-07T06:18:02.218Z] [AsyncOperation:start():51] [AsyncOperation] NetTruyen
+[INFO] [2023-04-07T06:18:02.225Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-07T06:18:02.226Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.227Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.327Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:02.329Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.333Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.335Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-07T06:18:02.437Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-07T06:18:02.823Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-07T06:18:02.824Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.844Z] [DownloadOperation:downloadTask(didFinishDownloadingTo:withReponse:andError:):116] Saved page to file:///var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/sources/source.Nettruyen.js
+[INFO] [2023-04-07T06:18:02.845Z] [AsyncOperation:start():51] [AsyncOperation] HentaiVN
+[INFO] [2023-04-07T06:18:02.870Z] [SourceManager:reloadSource(_:):128] Loading Nettruyen version: 1.0.6
+[INFO] [2023-04-07T06:18:02.889Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-07T06:18:02.890Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.893Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.949Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:02.950Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:02.982Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.027Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-07T06:18:03.092Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-07T06:18:03.105Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:03.106Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.149Z] [DownloadOperation:downloadTask(didFinishDownloadingTo:withReponse:andError:):116] Saved page to file:///var/mobile/Containers/Data/Application/43E94564-DE49-4726-B697-58054B65BC47/Documents/sources/source.HentaiVN.js
+[INFO] [2023-04-07T06:18:03.184Z] [SourceManager:reloadSource(_:):128] Loading HentaiVN version: 1.1.5
+[INFO] [2023-04-07T06:18:03.200Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hoang3402.github.io/extensions-vn/versioning.json
+[INFO] [2023-04-07T06:18:03.209Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.335Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.337Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:03.479Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-07T06:18:03.480Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.801Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-new2.php
+[INFO] [2023-04-07T06:18:03.803Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:03.888Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:03.890Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:05.568Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:18:08.146Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:18:11.716Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:18:15.643Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com/Comic/Services/ComicService.asmx/ProcessChapterList
+[INFO] [2023-04-07T06:18:15.645Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[ERROR] [2023-04-07T06:18:16.355Z] [MangaViewController:loadChapters(for:):168] JSError SyntaxError [PaperbackError(300)] JSError SyntaxError: JSON Parse error: Unexpected identifier "Cannot" - parse@[native code]
+[ERROR] [2023-04-07T06:18:16.356Z] [MangaViewController:loadChapters(for:):168] @
+[ERROR] [2023-04-07T06:18:16.357Z] [MangaViewController:loadChapters(for:):168] asyncFunctionResume@[native code]
+[ERROR] [2023-04-07T06:18:16.359Z] [MangaViewController:loadChapters(for:):168] @[native code]
+[ERROR] [2023-04-07T06:18:16.360Z] [MangaViewController:loadChapters(for:):168] promiseReactionJobWithoutPromise@[native code]
+[ERROR] [2023-04-07T06:18:16.361Z] [MangaViewController:loadChapters(for:):168] promiseReactionJob@[native code]:507:62
+[INFO] [2023-04-07T06:18:20.738Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:18:20.740Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:21.209Z] [ChapterRenderer:preloadPages(chapter:startFrom:):176] Preloading pages for chapter Nettruyen//truyen-tranh/cac-nguoi-tu-tien-con-ta-rut-the/chap-1/856402
+[ERROR] [2023-04-07T06:18:21.647Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:18:21.649Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[INFO] [2023-04-07T06:18:26.774Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-showchapter.php
+[INFO] [2023-04-07T06:18:26.775Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:30.157Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-showchapter.php
+[INFO] [2023-04-07T06:18:30.158Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:34.054Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/list-showchapter.php
+[INFO] [2023-04-07T06:18:34.056Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:35.394Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-07T06:18:35.395Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:18:35.396Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[ERROR] [2023-04-07T06:18:35.397Z] [JSPromise:toJSPromise(in:on:):28] RequestError [PaperbackError(301)] RequestError: Could not create a valid URLSession
+[ERROR] [2023-04-07T06:18:35.428Z] [SearchViewController:search(_:for:searchId:):191] RequestError [PaperbackError(301)] RequestError: Could not create a valid URLSession
+[INFO] [2023-04-07T06:18:35.602Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://hentaivn.tv/forum/search-plus.php
+[INFO] [2023-04-07T06:18:44.570Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com/Comic/Services/ComicService.asmx/ProcessChapterList
+[INFO] [2023-04-07T06:18:44.577Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[ERROR] [2023-04-07T06:18:45.131Z] [MangaViewController:loadChapters(for:):168] JSError SyntaxError [PaperbackError(300)] JSError SyntaxError: JSON Parse error: Unexpected identifier "Cannot" - parse@[native code]
+[ERROR] [2023-04-07T06:18:45.133Z] [MangaViewController:loadChapters(for:):168] @
+[ERROR] [2023-04-07T06:18:45.134Z] [MangaViewController:loadChapters(for:):168] asyncFunctionResume@[native code]
+[ERROR] [2023-04-07T06:18:45.136Z] [MangaViewController:loadChapters(for:):168] @[native code]
+[ERROR] [2023-04-07T06:18:45.137Z] [MangaViewController:loadChapters(for:):168] promiseReactionJobWithoutPromise@[native code]
+[ERROR] [2023-04-07T06:18:45.138Z] [MangaViewController:loadChapters(for:):168] promiseReactionJob@[native code]:507:62
+[INFO] [2023-04-07T06:19:14.549Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data
+[INFO] [2023-04-07T06:19:24.344Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com/Comic/Services/ComicService.asmx/ProcessChapterList
+[INFO] [2023-04-07T06:19:24.345Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[ERROR] [2023-04-07T06:19:24.855Z] [MangaViewController:loadChapters(for:):168] JSError SyntaxError [PaperbackError(300)] JSError SyntaxError: JSON Parse error: Unexpected identifier "Cannot" - parse@[native code]
+[ERROR] [2023-04-07T06:19:24.856Z] [MangaViewController:loadChapters(for:):168] @
+[ERROR] [2023-04-07T06:19:24.857Z] [MangaViewController:loadChapters(for:):168] asyncFunctionResume@[native code]
+[ERROR] [2023-04-07T06:19:24.859Z] [MangaViewController:loadChapters(for:):168] @[native code]
+[ERROR] [2023-04-07T06:19:24.861Z] [MangaViewController:loadChapters(for:):168] promiseReactionJobWithoutPromise@[native code]
+[ERROR] [2023-04-07T06:19:24.862Z] [MangaViewController:loadChapters(for:):168] promiseReactionJob@[native code]:507:62
+[INFO] [2023-04-07T06:19:28.722Z] [AsyncOperation:start():51] [AsyncOperation] RequestOperation - https://www.nettruyenvt.com
+[INFO] [2023-04-07T06:19:28.724Z] [AsyncOperation:start():51] [AsyncOperation] Delay Operation - 200ms
+[INFO] [2023-04-07T06:19:29.387Z] [ChapterRenderer:preloadPages(chapter:startFrom:):176] Preloading pages for chapter Nettruyen//truyen-tranh/chuyen-sinh-vao-the-gioi-vo-lam/chap-1/933847
+[ERROR] [2023-04-07T06:19:29.796Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:29.798Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:31.680Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:31.683Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:32.764Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:32.766Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:33.256Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:33.258Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:33.691Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:33.693Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:35.045Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[ERROR] [2023-04-07T06:19:35.047Z] [HistoryViewController:reloadHistory():149] Duplicate title ids detected, please run database repair. 
+[INFO] [2023-04-07T06:19:37.216Z] [SidebarViewController:configureSidebar():140] Configuring sidebar, reloading data

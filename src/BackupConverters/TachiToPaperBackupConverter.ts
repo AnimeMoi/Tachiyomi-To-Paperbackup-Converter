@@ -409,7 +409,7 @@ export class TachiToPaperBackupConverter {
             sortingIndex: chapter.sourceOrder ?? -2,
             sourceId: sourceConverter.paperbackSourceId,
             group: chapter.scanlator ?? "",
-            langCode: "_unknown",
+            langCode: "VN",
             name: chapter.name ?? ""
         }
 
