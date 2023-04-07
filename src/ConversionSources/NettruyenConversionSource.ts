@@ -23,7 +23,7 @@ export class NettruyenConversionSource extends AbstractConversionSource {
     */
 
     parseTachiyomiMangaId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
-        return tachiyomiId.split('/')[1].replace('/', '')
+        return tachiyomiId.split('/').at(2)!.replace('/', '')
     }
     parseTachiyomiChapterId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
         return tachiyomiId
