@@ -36,7 +36,7 @@ npm install
 ```
 3. Get file backup from tachiyomi and put it '/ressources/backup-examples/youfilebackup.proto.gz'
 
-4. Edit
+4. Edit file 'ressources/convertTachiToPaperBackup.ts'
 ```
 backupPath = 'ressources/backup-examples/youfilebackup.proto.gz'
 ```
