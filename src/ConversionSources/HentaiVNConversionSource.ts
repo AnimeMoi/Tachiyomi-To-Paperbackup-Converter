@@ -3,36 +3,31 @@ import { PaperbackRepository } from "../Paperback/PaperbackRepository"
 import { TachiyomiObjectModel } from "../Tachiyomi/proto/TachiyomiObjectModel"
 import { AbstractConversionSource } from "./AbstractConversionSource"
 
-export class GuyaConversionSource extends AbstractConversionSource {
+export class HentaiVNConversionSource extends AbstractConversionSource {
 
     // Only an `en` source exist for Guya
-    tachiyomiSourceIds: string[] = ["4637971935551651734"]
+    tachiyomiSourceIds: string[] = ["6560768551969686205"]
 
-    paperbackSourceId: string = "Guya"             // In this case, the source ID in Paperback is also Guya!
+    paperbackSourceId: string = "HentaiVN"             // In this case, the source ID in Paperback is also Guya!
 
-    tachiyomiSourceName: string = "Guya"
+    tachiyomiSourceName: string = "HentaiVN"
 
     paperbackSourceRepository = PaperbackRepository.PROMISES
 
     /*
         mangaID:
-            Tachiyomi: "Kaguya-Wants-To-Be-Confessed-To"
-            Paperback: "Kaguya-Wants-To-Be-Confessed-To"
+            Tachiyomi: "/33344-doc-truyen-rabbit-egg-blue-archive.html"
+            Paperback: "33344"
         chapterId:
-            Tachiyomi: "Kaguya-Wants-To-Be-Confessed-To/172.1/3"
-            Paperback: "172.1|3"
-        Guya API: 
-            manga id: Kaguya-Wants-To-Be-Confessed-To
-            chapter id: 172.1
-            group id: 3
+            Tachiyomi: "/33344-61635-xem-truyen-rabbit-egg-blue-archive-oneshot.html"
+            Paperback: "61635"
     */
 
     parseTachiyomiMangaId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
-        return tachiyomiId
+        return tachiyomiId.split('-')[0].replace('/', '')
     }
-    parseTachiyomiChapterId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string { 
-        const [mangaId, chapterId, group] = tachiyomiId.split("/")
-        return chapterId + "|" + group
+    parseTachiyomiChapterId(tachiyomiId: string, mangaInfo: TachiyomiObjectModel.IBackupManga): string {
+        return tachiyomiId.split("-")[1]
     }
     parsePaperbackMangaId(paperbackId: string, mangaInfo: PaperbackBackup.SourceManga): string {
         return paperbackId

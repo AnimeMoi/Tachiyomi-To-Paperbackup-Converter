@@ -7,11 +7,11 @@ export namespace PaperbackRepository {
     */
     export const STATEFUL: PaperbackBackup.SourceRepository = {
         name: "Extensions Primary",
-        url:  "https://paperback-ios.github.io/extensions-sources/primary"
+        url: "https://hoang3402.github.io/extensions-vn/"
     }
     export const PROMISES: PaperbackBackup.SourceRepository = {
         name: "Extensions Promises",
-        url:  "https://paperback-ios.github.io/extensions-promises"
+        url: "https://hoang3402.github.io/extensions-vn/"
     }
 
     /**
@@ -28,7 +28,7 @@ export namespace PaperbackRepository {
         } catch (error) {
             // On error, we return an empty repository to prevent the converter from retrying to fetch the repository for every sources
             console.log("Failed to fetch repository : " + baseURL)
-            console.log(error);
+            // console.log(error);
             return {
                 buildTime: "2021-08-09T14:19:47.235Z",
                 sources: []
@@ -52,7 +52,7 @@ export namespace PaperbackRepository {
         contentRating?: string      // Does not exist on old extensions-common version (app version 0.5 and prior)
         version: string
         icon: string
-        tags: {text: string, type: string}[]
+        tags: { text: string, type: string }[]
         websiteBaseURL: string
     }
 }

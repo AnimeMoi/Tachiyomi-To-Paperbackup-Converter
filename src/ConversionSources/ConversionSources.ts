@@ -1,8 +1,5 @@
-import { GuyaConversionSource } from "./GuyaConversionSource";
-import { MangaDexConversionSource } from "./MangadexConversionSource";
-import { MangaLifeConversionSource } from "./MangaLifeConversionSource";
-import { ManganeloConversionSource } from "./ManganeloConversionSource";
-import { MangaseeConversionSource } from "./MangaseeConversionSource";
+import { HentaiVNConversionSource } from "./HentaiVNConversionSource";
+import { NettruyenConversionSource } from "./NettruyenConversionSource";
 
 /**
  * A function that return a list of all available source converters. 
@@ -13,11 +10,8 @@ export function getConversionSourcesList() {
         This function should be updated when a new source converter is added
     */
     return [
-        new GuyaConversionSource(),
-        new MangaDexConversionSource(),
-        new MangaLifeConversionSource(),
-        new ManganeloConversionSource(),
-        new MangaseeConversionSource(),
+        new HentaiVNConversionSource(),
+        new NettruyenConversionSource(),
     ]
 }
 
