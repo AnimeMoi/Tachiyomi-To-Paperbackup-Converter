@@ -403,13 +403,13 @@ export class TachiToPaperBackupConverter {
         const chapterInfo: PaperbackBackup.ChapterInfo = {
             chapNum: chapter.chapterNumber ?? -2,
             mangaId: sourceConverter.parseTachiyomiMangaId(manga.url ?? "", manga),     // The id should never be undefined
-            volume: -2,                                                                // Required field
+            volume: 0,                                                                // Required field
             id: sourceConverter.parseTachiyomiChapterId(chapter.url ?? "", manga), // The id should never be undefined
             time: dateUpload,
             sortingIndex: chapter.sourceOrder ?? -2,
             sourceId: sourceConverter.paperbackSourceId,
             group: chapter.scanlator ?? "",
-            langCode: "VN",
+            langCode: "vn",
             name: chapter.name ?? ""
         }
 
